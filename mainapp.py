@@ -3,10 +3,6 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/')
-
-
-
 import time 
 
 import random 
@@ -82,6 +78,8 @@ print('바나나 초코 == 3500원')
 print() 
 
 print() 
+
+@app.route('/')
 
 def funa1():  # a1  남자 횟수 증가시키는 함수 + 계산 
 
